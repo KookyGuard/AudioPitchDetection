@@ -63,7 +63,6 @@ q : Quit execution
 The currently active window function is displayed live on the pitch plot.
 
 ## Project Structure
-.
 - main.m              # Real-time driver script
 - detectPitch.m       # FFT-based pitch estimation
 - VoiceChk.m          # Voicing detection logic
