@@ -1,5 +1,5 @@
-# AudioPitchDetection
-Overview
+## AudioPitchDetection
+# Overview
 
 This project implements a real-time voice pitch detection system using MATLAB and Simulink. Live audio is captured from a microphone, processed frame-by-frame, transformed into the frequency domain using FFT, and used to estimate the fundamental frequency (pitch).
 The system also incorporates voicing detection to suppress unvoiced segments and provides real-time visualization of pitch variation. An interactive feature allows switching between different window functions during execution for comparative analysis.
