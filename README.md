@@ -1,10 +1,10 @@
-## AudioPitchDetection
-# Overview
+# AudioPitchDetection
+## Overview
 
 This project implements a real-time voice pitch detection system using MATLAB and Simulink. Live audio is captured from a microphone, processed frame-by-frame, transformed into the frequency domain using FFT, and used to estimate the fundamental frequency (pitch).
 The system also incorporates voicing detection to suppress unvoiced segments and provides real-time visualization of pitch variation. An interactive feature allows switching between different window functions during execution for comparative analysis.
 
-Features
+## Features
 
 Real-time microphone input processing
 
@@ -18,7 +18,7 @@ User-selectable window functions
 
 Mid-run window switching using keyboard hotkeys
 
-Tools and Requirements
+## Tools and Requirements
 
 MATLAB 2024b (or compatible version)
 
@@ -28,7 +28,7 @@ DSP System Toolbox
 
 Simulink
 
-Methodology Summary
+## Methodology Summary
 
 Audio is captured from the system microphone at a fixed sampling rate.
 
@@ -44,7 +44,7 @@ Voicing detection determines whether the frame contains voiced speech.
 
 The detected pitch is displayed and plotted in real time.
 
-Supported Window Functions
+## Supported Window Functions
 
 Rectangular
 
@@ -54,7 +54,7 @@ Hann
 
 Blackman
 
-Keyboard Controls
+## Keyboard Controls
 
 w : Switch window function during runtime
 
@@ -62,7 +62,7 @@ q : Quit execution
 
 The currently active window function is displayed live on the pitch plot.
 
-Project Structure
+## Project Structure
 .
 ├── main.m              # Real-time driver script
 ├── detectPitch.m       # FFT-based pitch estimation
@@ -72,7 +72,7 @@ Project Structure
 ├── simulink_model.slx  # Simulink implementation
 └── README.md
 
-How to Run
+## How to Run
 
 Clone the repository or download the project files.
 
@@ -91,7 +91,7 @@ Speak, hum, or sing into the microphone.
 
 Use hotkeys to switch windows or exit.
 
-Results
+## Results
 
 Stable real-time pitch tracking for voiced speech and singing input
 
@@ -101,7 +101,7 @@ Hamming and Hann windows provide the most stable pitch estimates
 
 Rectangular window shows higher jitter due to spectral leakage
 
-Limitations
+## Limitations
 
 FFT peak-based pitch detection may exhibit octave errors
 
@@ -109,7 +109,7 @@ Performance depends on microphone quality and ambient noise
 
 Thresholds are empirically chosen and may require tuning for different environments
 
-Future Work
+## Future Work
 
 Autocorrelation or YIN-based pitch detection
 
@@ -121,7 +121,7 @@ Spectrogram with pitch overlay
 
 Speaker characterization and analysis
 
-Author
+## Author
 
 Manav Verma
 RV College of Engineering
