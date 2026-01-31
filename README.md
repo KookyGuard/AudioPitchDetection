@@ -123,7 +123,3 @@ Speaker characterization and analysis
 ## Author
 
 Manav Verma
-RV College of Engineering
-add references or citations
-
-rewrite it in a more research-paper style
