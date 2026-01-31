@@ -64,13 +64,13 @@ The currently active window function is displayed live on the pitch plot.
 
 ## Project Structure
 .
-├── main.m              # Real-time driver script
-├── detectPitch.m       # FFT-based pitch estimation
-├── VoiceChk.m          # Voicing detection logic
-├── windowSelect.m      # Window selection utility
-├── keyHandler.m        # Keyboard input handler
-├── simulink_model.slx  # Simulink implementation
-└── README.md
+- main.m              # Real-time driver script
+- detectPitch.m       # FFT-based pitch estimation
+- VoiceChk.m          # Voicing detection logic
+- windowSelect.m      # Window selection utility
+- keyHandler.m        # Keyboard input handler
+- simulink_model.slx  # Simulink implementation
+- README.md
 
 ## How to Run
 
